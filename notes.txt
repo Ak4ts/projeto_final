@@ -1,0 +1,8 @@
+swiping-cards: - https://codepen.io/RobVermeer/details/japZpY
+https://codepen.io/kdbkapsere/pen/eoaPBe
+
+profile:       - https://codepen.io/davekwiatkowski/details/MNQOOb
+login-screen   - https://codepen.io/ebarth/details/MReREB
+chat           - https://codepen.io/rossmartin/details/XJmpQr
+form           - https://codepen.io/andreikashin/details/dYVroZ
+
