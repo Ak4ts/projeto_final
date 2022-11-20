@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 import luis from "../../img/luis.jpeg"
 
 function Sign_up() {
@@ -44,7 +45,7 @@ function Sign_up() {
       </button>
     </div>
   </div>
-  <div>
+  <div className="sign-up-card-footer">
     Already have an account? <a href="/login">Login</a>
   </div>
 </div>
