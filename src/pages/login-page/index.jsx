@@ -10,7 +10,7 @@ function Login() {
       <div class="logo">
         <div><img src={luis} alt="luis" height="400" width="200"/></div>
       </div>
-      <h2>Frien<span class="highlight">do</span></h2>
+      <a href="/"><h2>Frien<span class="highlight">do</span></h2></a>
       <h3>Making friends has never been this easy!</h3>
     </div>
     <div class="form">

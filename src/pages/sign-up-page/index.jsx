@@ -9,9 +9,10 @@ function Sign_up() {
       <div class="logo">
         <div><img src={luis} alt="luis" height="400" width="200"/></div>
       </div>
-      <h2>Frien<span class="highlight">do</span></h2>
+      <a href="/"><h2>Frien<span class="highlight">do</span></h2></a>
       <h3>Making friends has never been this easy!</h3>
     </div>
+   
     <div class="form">
       <div class="form-field username">
         <div class="icon">
@@ -43,7 +44,9 @@ function Sign_up() {
       </button>
     </div>
   </div>
-
+  <div>
+    Already have an account? <a href="/login">Login</a>
+  </div>
 </div>
   )
 }

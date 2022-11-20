@@ -5,15 +5,31 @@ import friends_cafe from "../../img/cafe.jpg"
 
 function Home() {
   return (
-    <div class="grid-wrapper">
-     
-      <div class="background"><img src={friends}></img></div>
-      <div class="background"><img src={friends_cafe}></img></div>
-      <aside>
-      
-      </aside>
+<div class="box-form">
+  <div class="left">
+    <div class="overlay">      
+    <h1 data-text="Friendo">Friendo</h1>
+    <div className="buttons">
+      <a href="/login">
+        <button>
+        Login
+        </button>
+      </a>
+    </div>
+
+    <div className="buttons">
+      <a href="/sign-up">
+        <button>
+          Sign up
+        </button>
+      </a>
+    </div>
 
     </div>
+  </div>
+ 
+  </div>
+
 
   )
 }
