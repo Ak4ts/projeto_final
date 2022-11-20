@@ -7,143 +7,143 @@ function Cards() {
   return (
     <>
       <div className="content">
-      <div class="ui link cards"> 
-      <div class="card">
-        <div class="image">
+      <div className="ui link cards"> 
+      <div className="card">
+        <div className="image">
           <img src={luis}/>
         </div>
-        <div class="content">
-          <div class="header">Luis Gabriel</div>
-          <div class="meta">
+        <div className="content">
+          <div className="header">Luis Gabriel</div>
+          <div className="meta">
             <a>Friends</a>
           </div>
-          <div class="description">
+          <div className="description">
             Luis is an interior designer living in New York.
           </div>
         </div>
-        <div class="extra content">
-          <span class="right floated">
+        <div className="extra content">
+          <span className="right floated">
             Joined in 2013
           </span>
           <span>
-            <i class="user icon"></i>
+            <i className="user icon"></i>
             3375 Friends
           </span>
         </div>
       </div>
-      <div class="card">
-        <div class="image">
+      <div className="card">
+        <div className="image">
           <img src={felipe}/>
         </div>
-        <div class="content">
-          <div class="header">Felipe</div>
-          <div class="meta">
-            <span class="date">Coworker</span>
+        <div className="content">
+          <div className="header">Felipe</div>
+          <div className="meta">
+            <span className="date">Coworker</span>
           </div>
-          <div class="description">
+          <div className="description">
             Felipe is a personal assistant living in Paris.
           </div>
         </div>
-        <div class="extra content">
-          <span class="right floated">
+        <div className="extra content">
+          <span className="right floated">
             Joined in 2011
           </span>
           <span>
-            <i class="user icon"></i>
+            <i className="user icon"></i>
             4135 Friends
           </span>
         </div>
       </div>
-      <div class="card">
-        <div class="image">
+      <div className="card">
+        <div className="image">
           <img src={andre}/>
         </div>
-        <div class="content">
-          <div class="header">André</div>
-          <div class="meta">
+        <div className="content">
+          <div className="header">André</div>
+          <div className="meta">
             <a>Coworker</a>
           </div>
-          <div class="description">
+          <div className="description">
             André is a copywriter working in New York.
           </div>
         </div>
-        <div class="extra content">
-          <span class="right floated">
+        <div className="extra content">
+          <span className="right floated">
             Joined in 2014
           </span>
           <span>
-            <i class="user icon"></i>
+            <i className="user icon"></i>
             3110 Friends
           </span>
         </div>
       </div>
     </div>
-    <div class="ui link cards"> 
-      <div class="card">
-        <div class="image">
+    <div className="ui link cards"> 
+      <div className="card">
+        <div className="image">
           <img src={luis}/>
         </div>
-        <div class="content">
-          <div class="header">Luis Gabriel</div>
-          <div class="meta">
+        <div className="content">
+          <div className="header">Luis Gabriel</div>
+          <div className="meta">
             <a>Friends</a>
           </div>
-          <div class="description">
+          <div className="description">
             Luis is an interior designer living in New York.
           </div>
         </div>
-        <div class="extra content">
-          <span class="right floated">
+        <div className="extra content">
+          <span className="right floated">
             Joined in 2013
           </span>
           <span>
-            <i class="user icon"></i>
+            <i className="user icon"></i>
             3375 Friends
           </span>
         </div>
       </div>
-      <div class="card">
-        <div class="image">
+      <div className="card">
+        <div className="image">
           <img src={felipe}/>
         </div>
-        <div class="content">
-          <div class="header">Felipe</div>
-          <div class="meta">
-            <span class="date">Coworker</span>
+        <div className="content">
+          <div className="header">Felipe</div>
+          <div className="meta">
+            <span className="date">Coworker</span>
           </div>
-          <div class="description">
+          <div className="description">
             Felipe is a personal assistant living in Paris.
           </div>
         </div>
-        <div class="extra content">
-          <span class="right floated">
+        <div className="extra content">
+          <span className="right floated">
             Joined in 2011
           </span>
           <span>
-            <i class="user icon"></i>
+            <i className="user icon"></i>
             4135 Friends
           </span>
         </div>
       </div>
-      <div class="card">
-        <div class="image">
+      <div className="card">
+        <div className="image">
           <img src={andre}/>
         </div>
-        <div class="content">
-          <div class="header">André</div>
-          <div class="meta">
+        <div className="content">
+          <div className="header">André</div>
+          <div className="meta">
             <a>Coworker</a>
           </div>
-          <div class="description">
+          <div className="description">
             André is a copywriter working in New York.
           </div>
         </div>
-        <div class="extra content">
-          <span class="right floated">
+        <div className="extra content">
+          <span className="right floated">
             Joined in 2014
           </span>
           <span>
-            <i class="user icon"></i>
+            <i className="user icon"></i>
             3110 Friends
           </span>
         </div>

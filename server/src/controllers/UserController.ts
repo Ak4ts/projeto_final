@@ -18,6 +18,7 @@ class UserController {
   }
   public async login(req: Request, res: Response, next: NextFunction): Promise<Response> {
     const { email, password } = req.body
+    console.log(req.body)
     const user = await User.findOne({email, password})
     if(!user) return res.status(403).json({ error: "Check if email and password is correct"})
     const token = jwt.sign({ 
@@ -31,6 +32,7 @@ class UserController {
     );
     user.token = token;
     user.save();
+    
     return res.status(200)
   }
   public async deleteUser(req: Request, res: Response): Promise<Response> {

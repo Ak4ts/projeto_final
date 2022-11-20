@@ -8,13 +8,16 @@ interface UserInterface extends Document {
   _id?: string;
 }
 
-export const UserSchema = new Schema({ 
-  email: String,
-  username: String,
-  password: String,
-  token: String,
-}, {
-  timestamps: true
-})
+export const UserSchema = new Schema(
+  {
+    email: String,
+    username: String,
+    password: String,
+    token: String,
+  },
+  {
+    timestamps: true,
+  }
+);
 
-export default model<UserInterface>('User', UserSchema)
+export default model<UserInterface>("User", UserSchema);
