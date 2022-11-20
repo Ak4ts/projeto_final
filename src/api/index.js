@@ -1,6 +1,6 @@
 import { api } from "../utils";
 
-export const login = async (email: string, password: string) => {
+export const login = async (email, password) => {
   api
     .post("/login", {
       email,
@@ -16,10 +16,10 @@ export const login = async (email: string, password: string) => {
 };
 
 export const signin = async (
-  username: string,
-  email: string,
-  password: string,
-  password2: string
+  username,
+  email,
+  password,
+  password2
 ) => {
   if (password !== password2) {
     alert("passwords doesn't match!");
