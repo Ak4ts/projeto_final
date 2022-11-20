@@ -7,20 +7,20 @@ function Sign_up() {
     e.preventDefault()
   } 
   return (
-    <div class="login-card">
-      <div class="login-card-content">
-      <div class="headers">
-      <div class="logo">
+    <div className="login-card">
+      <div className="login-card-content">
+      <div className="headers">
+      <div className="logo">
         <div><img src={luis} alt="luis" height="200" width="200"/></div>
       </div>
-        <a href="/"><h2>Friend<span class="highlight">o</span></h2></a>
+        <a href="/"><h2>Friend<span className="highlight">o</span></h2></a>
         <h3>Making friends has never been this easy!</h3>
       </div>
    </div>
-    <div class="form">
-      <div class="form-field username">
-        <div class="icon">
-          <i class="fas fa-user"></i>
+    <div className="form">
+      <div className="form-field username">
+        <div className="icon">
+          <i className="fas fa-user"></i>
         </div>
 
         <form onSubmit={handleSubmit}>

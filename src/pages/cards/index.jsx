@@ -14,9 +14,9 @@ function Cards() {
         </ul>
       </div>
       <div className="all_cards">
-      <div class="ui link cards"> 
-      <div class="card">
-        <div class="image">
+      <div className="ui link cards"> 
+      <div className="card">
+        <div className="image">
           <img src={luis}/>
         </div>
         <div className="content">
