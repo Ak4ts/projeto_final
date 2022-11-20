@@ -31,7 +31,6 @@ class UserController {
     );
     user.token = token;
     user.save();
-    next()
     return res.status(200)
   }
   public async deleteUser(req: Request, res: Response): Promise<Response> {
@@ -49,7 +48,7 @@ class UserController {
   public async updateUser(req: Request, res: Response): Promise<Response>{
     const user = await User.findOne(req.body)
     console.log(user)
-    console.log(req.body)           
+    console.log(req.body)
     return res.status(200);
   }
 }

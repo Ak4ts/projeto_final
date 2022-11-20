@@ -2,7 +2,7 @@ import { Schema, model, Document } from "mongoose";
 
 interface UserInterface extends Document {
   email?: string;
-  name?: string;
+  username?: string;
   password?: string;
   token?: string;
   _id?: string;
@@ -10,7 +10,7 @@ interface UserInterface extends Document {
 
 export const UserSchema = new Schema({ 
   email: String,
-  name: String,
+  username: String,
   password: String,
   token: String,
 }, {
