@@ -13,10 +13,10 @@ function Sign_up() {
       <div class="logo">
         <div><img src={luis} alt="luis" height="200" width="200"/></div>
       </div>
-      <a href="/"><h2>Friend<span class="highlight">o</span></h2></a>
-      <h3>Making friends has never been this easy!</h3>
-    </div>
-   
+        <a href="/"><h2>Friend<span class="highlight">o</span></h2></a>
+        <h3>Making friends has never been this easy!</h3>
+      </div>
+   </div>
     <div class="form">
       <div class="form-field username">
         <div class="icon">
@@ -56,6 +56,7 @@ function Sign_up() {
       <div className="sign-up-card-footer">
         Already have an account? <a href="/login">Login</a>
       </div>
+    </div>
     </div>
   );
 }

@@ -25,6 +25,7 @@ function Login() {
       <a href="/"><h2>Friend<span class="highlight">o</span></h2></a>
       <h3>Making friends has never been this easy!</h3>
     </div>
+    </div>
     <div class="form">
       <div class="form-field username">
         <div class="icon">
@@ -54,6 +55,7 @@ function Login() {
       <div className="login-card-footer">
         <a href="/recover-account">Forgot password?</a>
       </div>
+    </div>
     </div>
   );
 }
