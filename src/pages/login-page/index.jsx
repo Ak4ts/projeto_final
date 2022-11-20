@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import luis from "../../img/luis.jpeg"
+import logo from "../../img/logo.png"
 
 function Login() {
   return (
@@ -8,7 +9,7 @@ function Login() {
   <div class="login-card-content">
     <div class="header">
       <div class="logo">
-        <div><img src={luis} alt="luis" height="400" width="200"/></div>
+        <div><img src={logo} alt="luis" height="200" width="200"/></div>
       </div>
       <a href="/"><h2>Frien<span class="highlight">do</span></h2></a>
       <h3>Making friends has never been this easy!</h3>
@@ -27,16 +28,18 @@ function Login() {
         <input type="password" placeholder="Password"/>
       </div>
 
-      <button type="submit">
-        Login
-      </button>
+      <a href="/landing-page">
+        <button type="submit">
+          Login
+        </button>
+      </a>
       <div>
         Don't have an account? <a href="/sign-up">Sign Up Now</a>
       </div>
     </div>
   </div>
   <div class="login-card-footer">
-    <a href="">Forgot password?</a>
+    <a href="/recover-account">Forgot password?</a>
   </div>
 </div>
   );

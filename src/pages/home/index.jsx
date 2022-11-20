@@ -1,7 +1,5 @@
 import React from "react";
 import './style.css'
-import friends from "../../img/friends.jpg"
-import friends_cafe from "../../img/cafe.jpg"
 
 function Home() {
   return (

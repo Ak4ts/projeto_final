@@ -76,13 +76,11 @@ h3 {
 .logo {
   overflow: hidden;
   border-radius: 40px;
-  border: 8px solid rgb(212, 57, 77);
   width: 200px;
   height: 200px;
   display: flex;
   justify-content: center;
-  margin: 0 auto 16px;
-  background: rgba(255, 255, 255, 0.1);
+  margin: 0px auto 16px;
   align-items: center;
 }
 

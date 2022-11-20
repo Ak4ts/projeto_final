@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css"
-import luis from "../../img/luis.jpeg"
+import luis from "../../img/logo.png"
 
 function Sign_up() {
   return (
@@ -8,7 +8,7 @@ function Sign_up() {
   <div class="login-card-content">
     <div class="header">
       <div class="logo">
-        <div><img src={luis} alt="luis" height="400" width="200"/></div>
+        <div><img src={luis} alt="luis" height="200" width="200"/></div>
       </div>
       <a href="/"><h2>Frien<span class="highlight">do</span></h2></a>
       <h3>Making friends has never been this easy!</h3>
@@ -40,9 +40,11 @@ function Sign_up() {
         <input type="password" placeholder="Re-type password"/>
       </div>
 
-      <button type="submit">
-        Sign up
-      </button>
+      <a href="/landing-page">
+        <button type="submit">
+          Sign up
+        </button>
+      </a>
     </div>
   </div>
   <div className="sign-up-card-footer">
