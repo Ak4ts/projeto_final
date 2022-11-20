@@ -1,5 +1,7 @@
+import React from "react";
 import "./style.css";
 import luis from "../../img/luis.jpeg"
+
 function App() {
   return (
 <div class="login-card">
