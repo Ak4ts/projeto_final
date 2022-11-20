@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import luis from "../../img/luis.jpeg"
 
-function App() {
+function Login() {
   return (
 <div class="login-card">
   <div class="login-card-content">
@@ -31,7 +31,7 @@ function App() {
         Login
       </button>
       <div>
-        Don't have an account? <a href="">Sign Up Now</a>
+        Don't have an account? <a href="/sign-up">Sign Up Now</a>
       </div>
     </div>
   </div>
@@ -42,4 +42,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
