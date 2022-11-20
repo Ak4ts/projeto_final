@@ -1,6 +1,10 @@
-div.content{
-
+div.all_cards{
+  height: fit-content;
+  margin-top: 40px;
+  border:14px solid rgb(15, 113, 217)
 }
+
 div.ui.link.cards{
-  margin-top: 30vh;
+  border: 20px solid blue;
+
 }

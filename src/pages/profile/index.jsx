@@ -8,7 +8,7 @@ function Profile() {
 <div class="box-form">
   <div class="left">
   <div class="overlay">      
-    <h1 data-text="Frien">Friendo</h1>
+    <h1 data-text="Friend">Friendo</h1>
   </div>
 
     <div>s</div>

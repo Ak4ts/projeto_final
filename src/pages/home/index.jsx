@@ -3,10 +3,10 @@ import './style.css'
 
 function Home() {
   return (
-<div className="box-form">
-  <div className="left">
-    <div className="overlay">      
-    <h1 data-text="Frien">Friendo</h1>
+<div class="box-form">
+  <div class="left">
+    <div class="overlay">      
+    <h1 data-text="Friend">Friendo</h1>
     <div className="buttons">
       <a href="/login">
         <button>
