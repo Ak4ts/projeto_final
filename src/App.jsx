@@ -4,7 +4,6 @@ import LandingPage from "./pages/landing-page"
 import Login from './pages/login-page'
 import Sign_up from './pages/sign-up-page'
 import RecoverAccount from './pages/recover-account'
-import Profile from "./pages/profile"
 import AccountSettings from "./pages/account-settings"
 import Cards from "./pages/cards"
 import Chats from "./pages/chats"
@@ -15,7 +14,6 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/profile' element={<Profile/>}/>
           <Route path='/settings' element={<AccountSettings/>}/>
           <Route path='/cards' element={<Cards/>}/>
           <Route path='/chats' element={<Chats/>}/>

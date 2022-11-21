@@ -1,10 +1,12 @@
-div.all_cards{
+.cards{
+  border: 1px solid white;
+  padding: 20px;
+  overflow: hidden;
   height: fit-content;
-  margin-top: 40px;
-  border:14px solid rgb(15, 113, 217)
+  width: 60vw;
+  margin: 50px auto;
 }
 
-div.ui.link.cards{
-  border: 20px solid blue;
-
+.card-title{
+  text-align: center;
 }
