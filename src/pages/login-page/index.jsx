@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import luis from "../../img/luis.jpeg";
 import logo from "../../img/logo.png";
 import { login } from "../../api";
 import { useNavigate } from "react-router-dom";
