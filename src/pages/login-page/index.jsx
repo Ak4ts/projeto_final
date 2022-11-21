@@ -6,13 +6,11 @@ import { login } from "../../api";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
-  const navigate = useNavigate();
+  const navigate =  useNavigate();
   const handleLogin = async (e) => {
-    e.preventDefault();
-
-    login(e.target.username.value, e.target.password.value) == true
-      ? navigate("/cards")
-      : "";
+    await e.preventDefault();
+    login(e.target.username.value, e.target.password.value, navigate);
+    
   };
 
   return (
@@ -37,13 +35,13 @@ function Login() {
               <div className="icon">
                 <i className="far fa-user"></i>
               </div>
-              <input type="text" placeholder="Username" name="username" />
+              <input type="text" placeholder="Username" name="username" autoComplete="username" />
             </div>
             <div className="form-field password">
               <div className="icon">
                 <i className="fas fa-lock"></i>
               </div>
-              <input type="password" placeholder="Password" name="password" />
+              <input type="password" placeholder="Password" name="password" autoComplete="current-password" />
             </div>
             <button type="submit">Login</button>
             <div>
