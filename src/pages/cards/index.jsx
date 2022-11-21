@@ -15,8 +15,12 @@ function Cards() {
           </div>
           <div className="cards">
             <h1 className="card-title">Cards</h1>
-            <div className="card">Card1</div>
-            <div className="card">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
           </div>
           
         </div>
