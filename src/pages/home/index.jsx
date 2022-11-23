@@ -4,7 +4,6 @@ import './style.css'
 function Home() {
   return (
 <div className="box-form">
-  <div className="left">
     <div className="overlay">      
     <h1 data-text="Friend">Friendo</h1>
     <div className="buttons">
@@ -22,10 +21,7 @@ function Home() {
         </button>
       </a>
     </div>
-
-    </div>
-  </div>
- 
+    </div> 
   </div>
 
 
