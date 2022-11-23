@@ -7,7 +7,15 @@ import felipe from "../../img/felipe.png"
 function Cards() {
   return (
     <>
-      <div className="left">Menu</div>
+      <div className="left">
+        <ul>
+          <li><a href="/"><i className="fas fa-home"></i></a></li>
+          <li><a href="/settings"><i className="fas fa-cogs"></i></a></li>
+          <li><a href="/profile"><i className="fas fa-user-circle"></i></a></li>
+          <li><a href="/chat"><i className='far fa-comment-dots'></i></a></li>
+          <li><a href="/cards"><i className="fas fa-heart"></i></a></li>
+        </ul>
+      </div>
       <div className="right">
       
           <div className="overlay friendo-profile-title">      
