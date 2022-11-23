@@ -7,6 +7,7 @@ import RecoverAccount from './pages/recover-account'
 import AccountSettings from "./pages/account-settings"
 import Cards from "./pages/cards"
 import Chats from "./pages/chats"
+import Profile from "./pages/profile"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/profile' element={<Profile/>}></Route>
           <Route path='/settings' element={<AccountSettings/>}/>
           <Route path='/cards' element={<Cards/>}/>
           <Route path='/chats' element={<Chats/>}/>
