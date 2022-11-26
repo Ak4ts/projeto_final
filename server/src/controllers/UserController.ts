@@ -18,8 +18,8 @@ class UserController {
   }
   public async login(req: Request, res: Response, next: NextFunction): Promise<Response> {
     const { email, password } = req.body
+    console.log(req.body)
     const user = await User.findOne({email, password})
-    console.log(user)
     if(!user) return res.status(403).json({ error: "Check if email and password is correct"})
     user.save();
     return res.status(200).json({user})

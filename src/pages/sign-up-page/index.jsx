@@ -3,31 +3,20 @@ import "./style.css";
 import luis from "../../img/logo.png";
 import { signin } from "../../api";
 import { useNavigate } from "react-router";
-import Alert from "../../components/Alert";
-
 
 function Sign_up() {
-  const [open, setOpen] = React.useState(false);
-  let err = false;
   const navigate = useNavigate()
   
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    err = await signin(
+    signin(
       e.target.username.value,
       e.target.email.value,
       e.target.password.value,
       e.target.password2.value,
       navigate
     )
-    console.log(err)
-    if (err === true) {
-      setOpen(true);
-      setTimeout(() => {
-        setOpen(false);
-      }, "2000");
-    }
   };
 
   return (
@@ -103,7 +92,6 @@ function Sign_up() {
           Already have an account? <a href="/login">Login</a>
         </div>
       </div>
-      <Alert text={"Email e/ou usuário já existente no banco de dados!"} open={open} />
     </div>
   );
 }
