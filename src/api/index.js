@@ -1,17 +1,18 @@
 import { api } from "../utils";
 
 export const login = async (email, password, navigate) => {
-  console.log("a")
+  let err
   await api.post("/login", {
       email,
       password,
     }).then((res) => {
       navigate("/cards")
+      err = false
     })
     .catch((res) => {
-      alert(res.response.data.error);
-      return false;
+      err = true;
     });
+  return err
 };
 
 export const signin = async (
@@ -22,15 +23,16 @@ export const signin = async (
   navigate
 ) => {
   if (password !== password2) {
-    alert("passwords doesn't match!");
+    return true
   } else {
     api
       .post("/users", { username, email, password })
       .then((res) => {
         navigate("/cards")
+        return false
       })
       .catch((res) => {
-        alert("Something went wrong :(");
+        return true
       });
   }
 };
