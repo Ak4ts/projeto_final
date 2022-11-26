@@ -1,6 +1,9 @@
 import React from "react";
 import './style.css'
-
+import Header from "../../components/header";
+import luis from "../../img/luis.png"
+import andre from "../../img/andre.png"
+import felipe from "../../img/felipe.png"
 function Cards() {
   return (
     <>
