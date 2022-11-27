@@ -33,19 +33,25 @@ button.like{
   width: 45%;
   font-size: 150%;
   /* border: solid rgb(179, 179, 179) 2px; */
-  box-shadow: none;
+  box-shadow: 0px 2px 2px grey;
   background-color: rgb(231, 231, 231);
+}
+
+button.like:active{
+  transform:translateY(1px);
+  box-shadow: 0 0 0;
+  outline: 0;
 }
 
 button.r{
   float: right;
-  color:  #fdc554c0;
+  color:  #f0a102c0;
   
 }
 
 button.l{
   float: left;
-  color: red
+  color: rgb(236, 45, 45)
 }
 
 span.name {
