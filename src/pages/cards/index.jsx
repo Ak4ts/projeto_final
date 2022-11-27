@@ -7,17 +7,12 @@ import coffee from "../../img/cafe.jpg"
 import felipe from "../../img/felipe.png"
 import maria from "../../img/friends.jpg"
 import friendos from "../../img/friendos.jpeg"
+import Header from "../../components/Header/Header";
 function Cards() {
   return (
     <>
       <div className="left">
-        <ul>
-          <li><a href="/"><i className="fas fa-home"></i></a></li>
-          <li><a href="/settings"><i className="fas fa-cogs"></i></a></li>
-          <li><a href="/profile"><i className="fas fa-user-circle"></i></a></li>
-          <li><a href="/chat"><i className='far fa-comment-dots'></i></a></li>
-          <li><a href="/cards"><i className="fas fa-heart"></i></a></li>
-        </ul>
+        <Header/>
       </div>
       <div className="right">
       
