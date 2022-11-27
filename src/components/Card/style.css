@@ -7,7 +7,6 @@
   height: 65vh;
   width: 100%;
   margin-bottom: 20%;
-  -webkit-line-clamp: 2;
 }
 
 .prof-pic{
@@ -38,6 +37,7 @@ button.like{
 button.r{
   float: right;
   color:  #fdc554c0;
+  
 }
 
 button.l{
