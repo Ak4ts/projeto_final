@@ -4,15 +4,19 @@ import logo from "../../img/logo.png";
 import { login } from "../../api";
 import { useNavigate } from "react-router-dom";
 import Alert from "../../components/Alert";
-
+import { Send as SendIcon } from "@mui/icons-material"
+import { LoadingButton } from "@mui/lab"
 
 export default function Login() {
   const [open, setOpen] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
   let err = false
   const navigate = useNavigate();
   const handleLogin = async (e) => {
-    await e.preventDefault();
+    e.preventDefault();
+    setLoading(true)
     err = await login(e.target.username.value, e.target.password.value, navigate);
+    setLoading(false)
     if (err === true) {
       setOpen(true)
       setTimeout(() => {
@@ -67,8 +71,18 @@ export default function Login() {
                   autoComplete="current-password"
                 />
               </div>
-              <button type="submit">Login</button>
-              <div>
+              <LoadingButton
+                endIcon={<SendIcon />}
+                loading={loading}
+                loadingPosition="end"
+                variant="contained"
+                color="primary"
+                type="submit"
+              >
+                Login
+              </LoadingButton>
+              {/* <button type="submit">Login</button> */}
+              <div className="signup">
                 Don't have an account? <a href="/sign-up">Sign Up Now</a>
               </div>
             </div>
