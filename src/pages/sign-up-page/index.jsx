@@ -107,7 +107,7 @@ function Sign_up() {
                 color="primary"
                 type="submit"
               >
-                Login
+                Sign up 
               </LoadingButton>
               {/* <button type="submit">Sign up</button> */}
             </div>
