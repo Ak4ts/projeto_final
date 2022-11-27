@@ -1,18 +1,13 @@
 import React from "react";
 import './style.css'
+import Header from "../../components/Header/Header";
 
 function Profile() {
   return (
   <div>
     <div className="left">
         <div className="list">
-          <ul>
-            <li><a href="/"><i className="fas fa-home"></i></a></li>
-            <li><a href="/settings"><i className="fas fa-cogs"></i></a></li>
-            <li><a href="/profile"><i className="fas fa-user-circle"></i></a></li>
-            <li><a href="/chat"><i className='far fa-comment-dots'></i></a></li>
-            <li><a href="/cards"><i className="fas fa-heart"></i></a></li>
-          </ul>
+          <Header/>
         </div>
       </div>
       <div className="right">
@@ -39,12 +34,14 @@ function Profile() {
         
           <legend><span class="number">2</span> Your Profile</legend>
           
-         <label for="bio">Bio:</label>
-          <textarea id="bio" name="user_bio"></textarea>
+          <label>Location:</label>
+          <textarea id="insterests" name="interests" placeholder="Country - State - City"></textarea>
+
+          <label for="bio">Bio:</label>
+          <textarea id="bio" name="user_bio" placeholder="Interesting things about you"></textarea>
         
           <label>Interests:</label>
-
-          <textarea id="insterests" name="interests"></textarea>
+          <textarea id="insterests" name="interests" placeholder="What do you like?"></textarea>
           
          </fieldset>
        
