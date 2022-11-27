@@ -1,0 +1,65 @@
+.all{
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.88);
+  color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  height: 65vh;
+  width: 100%;
+  margin-bottom: 20%;
+  -webkit-line-clamp: 2;
+}
+
+.prof-pic{
+ width: 100%; 
+ height: 50%;
+}
+
+.prof-pic img{
+  width: 100%;
+  height: 100%;
+}
+
+.info{
+  height: 50%;
+  padding: 2vh;
+}
+
+h3.name{
+  font-size: large;
+}
+
+button.like{
+  margin-top: 5%;
+  width: 45%;
+  font-size: 150%;
+}
+
+button.r{
+  float: right;
+  color:  #fdc554c0;
+}
+
+button.l{
+  float: left;
+}
+
+span.name {
+  font-weight: 600;
+  font-size: 120%;
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+}
+
+span.interests, span.description{
+  min-height: 20%;
+  max-height: 20%;
+  margin-top: 5%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
