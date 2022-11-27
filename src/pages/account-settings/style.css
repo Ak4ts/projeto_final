@@ -3,6 +3,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.right{
+  overflow: auto;
+}
 
 form.changes {
   overflow: hidden;

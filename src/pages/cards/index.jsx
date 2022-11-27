@@ -26,6 +26,34 @@ function Cards() {
             <div className="card r">Card2</div>
             <div className="card l">Card1</div>
             <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
+            <div className="card l">Card1</div>
+            <div className="card r">Card2</div>
           </div>
           
         </div>
