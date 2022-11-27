@@ -12,7 +12,7 @@ function Locations() {
       <div className="right">
         <div className="locations">
         <Location description="A wonderful cafe for you and your friends!" image={cafe}/>
-        
+        <Location description="A wonderful cafe for you and your friends!" image={cafe}/>
         </div>
       </div>
     </>
