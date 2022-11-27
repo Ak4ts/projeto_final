@@ -4,16 +4,19 @@ import luis from "../../img/logo.png";
 import { signin } from "../../api";
 import { useNavigate } from "react-router";
 import Alert from "../../components/Alert";
+import { Send as SendIcon } from "@mui/icons-material";
+import { LoadingButton } from "@mui/lab";
 
 
 function Sign_up() {
   const [open, setOpen] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
   let err = false;
   const navigate = useNavigate()
-  
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setLoading(true)
     err = await signin(
       e.target.username.value,
       e.target.email.value,
@@ -21,6 +24,7 @@ function Sign_up() {
       e.target.password2.value,
       navigate
     )
+    setLoading(false)
     console.log(err)
     if (err === true) {
       setOpen(true);
@@ -95,7 +99,17 @@ function Sign_up() {
                   name="password2"
                 />
               </div>
-              <button type="submit">Sign up</button>
+              <LoadingButton
+                endIcon={<SendIcon />}
+                loading={loading}
+                loadingPosition="end"
+                variant="contained"
+                color="primary"
+                type="submit"
+              >
+                Login
+              </LoadingButton>
+              {/* <button type="submit">Sign up</button> */}
             </div>
           </form>
         </div>
@@ -103,7 +117,10 @@ function Sign_up() {
           Already have an account? <a href="/login">Login</a>
         </div>
       </div>
-      <Alert text={"Email e/ou usuário já existente no banco de dados!"} open={open} />
+      <Alert
+        text={"Email e/ou usuário já existente no banco de dados!"}
+        open={open}
+      />
     </div>
   );
 }
