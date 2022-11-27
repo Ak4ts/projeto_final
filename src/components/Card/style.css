@@ -32,6 +32,9 @@ button.like{
   margin-top: 5%;
   width: 45%;
   font-size: 150%;
+  /* border: solid rgb(179, 179, 179) 2px; */
+  box-shadow: none;
+  background-color: rgb(231, 231, 231);
 }
 
 button.r{
@@ -42,6 +45,7 @@ button.r{
 
 button.l{
   float: left;
+  color: red
 }
 
 span.name {

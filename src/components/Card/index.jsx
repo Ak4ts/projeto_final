@@ -1,5 +1,7 @@
 import React from "react"
 import "./style.css"
+import Button from "@mui/material/Button";
+
 
 function Card(props) {
   return (
@@ -12,8 +14,8 @@ function Card(props) {
       <span className="description">Description: {props.description}</span> 
       <span className="interests">Interests: {props.interests}</span> 
       <div className="btn">
-        <button className="like l"><i class="fas fa-heart"></i></button>
-        <button className="like r"><i class="fas fa-bug"></i></button>
+        <Button className="like l" variant="contained"><i class="fas fa-heart"></i></Button>
+        <Button className="like r" variant="contained"><i class="fas fa-bug"></i></Button>
       </div>
       </div>
     </div>

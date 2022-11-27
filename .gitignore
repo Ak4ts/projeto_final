@@ -32,3 +32,4 @@ yarn-debug.log*
 yarn-error.log*
 bun.lockb
 bun.lockb
+server/yarn.lock
