@@ -78,6 +78,7 @@ export default function Login() {
                 variant="contained"
                 color="primary"
                 type="submit"
+                className="like login"
               >
                 Login
               </LoadingButton>
