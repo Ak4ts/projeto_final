@@ -109,7 +109,6 @@ function Sign_up() {
               >
                 Sign up 
               </LoadingButton>
-              {/* <button type="submit">Sign up</button> */}
             </div>
           </form>
         </div>
