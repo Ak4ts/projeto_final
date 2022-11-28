@@ -12,7 +12,7 @@ body {
   justify-content: center;
 }
 
-a {
+.login-card a{
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -20,8 +20,9 @@ a {
   transition: all 0.2s;
 }
 
-a:hover,
-a:focus {
+
+.login-card a:hover,
+.login-card a:focus{
   color: #fdc654;
   transition: all 0.2s;
 }

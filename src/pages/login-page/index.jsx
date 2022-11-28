@@ -31,7 +31,7 @@ export default function Login() {
         <div className="headers">
           <div className="logo">
             <div>
-              <img src={logo} alt="luis" height="200" width="200" />
+              <img src={logo} alt="logo" height="200" width="200" />
             </div>
           </div>
           <a href="/">
