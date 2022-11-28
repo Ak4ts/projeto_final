@@ -102,6 +102,10 @@ button {
   outline: none;
 }
 
+button.login-sign_up:hover{
+  background: rgb(238, 238, 238);
+}
+
 .form-field {
   margin-bottom: 16px;
   width: 100%;

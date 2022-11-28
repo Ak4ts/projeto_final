@@ -106,6 +106,7 @@ function Sign_up() {
                 variant="contained"
                 color="primary"
                 type="submit"
+                className = "login-sign_up"
               >
                 Sign up 
               </LoadingButton>

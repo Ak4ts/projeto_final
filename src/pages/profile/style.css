@@ -1,23 +1,13 @@
-.profile-settings{
+.profile{
   overflow: hidden;
-  height: 60vh;
-  width: 60vw;
+  height: 80vh;
+  width: 80vw;
   margin: 50px auto;
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 20px;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-.list{
-  margin: 0 auto;
-}
-
-a{
-  text-decoration: none;
-}
-
-.right{
-  float: left;
-  width: 90vw;
-  height: 100vh;
+.stats{
+  color: black;
 }

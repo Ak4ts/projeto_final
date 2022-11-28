@@ -8,7 +8,7 @@ function Home() {
     <h1 data-text="Friend">Friendo</h1>
     <div className="buttons">
       <a href="/login">
-        <button>
+        <button className="home-btns">
         Login
         </button>
       </a>
@@ -16,7 +16,7 @@ function Home() {
 
     <div className="buttons">
       <a href="/sign-up">
-        <button>
+        <button className="home-btns">
           Sign up
         </button>
       </a>
