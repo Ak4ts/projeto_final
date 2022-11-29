@@ -12,11 +12,12 @@
 .prof-pic{
  width: 100%; 
  height: 50%;
+ overflow: hidden;
 }
 
 .prof-pic img{
   width: 100%;
-  height: 100%;
+  height: 120%;
 }
 
 .info{
