@@ -5,6 +5,10 @@ interface UserInterface extends Document {
   username?: string;
   password?: string;
   token?: string;
+  location?: string;
+  bio?: string;
+  interests?: string;
+  friends?: object;
   _id?: string;
 }
 
@@ -14,6 +18,10 @@ export const UserSchema = new Schema(
     username: String,
     password: String,
     token: String,
+    location: String,
+    bio: String,
+    interests: String,
+    friends: Object
   },
   {
     timestamps: true,

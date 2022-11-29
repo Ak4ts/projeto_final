@@ -37,10 +37,18 @@ class UserController {
     return res.status(200)
   }
   public async updateUser(req: Request, res: Response): Promise<Response>{
-    const user = await User.findOne(req.body)
-    console.log(user)
-    console.log(req.body)
-    return res.status(200);
+    const rs = req.body
+    const user = await User.findOne({email: rs.email})
+    if(user == null) return res.status(404).json({error: "Not Found"})
+    
+    if(rs.email) user.email = rs.email
+    if(rs.password) user.password = rs.password
+    if(rs.username) user.username = rs.username
+    if(rs.location) user.location = rs.location
+    if(rs.bio) user.bio = rs.bio
+    if(rs.interests) user.interests = rs.interests
+    user.save()
+    return res.status(200).json({ user });
   }
 }
 
