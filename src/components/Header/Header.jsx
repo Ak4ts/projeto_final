@@ -6,7 +6,6 @@ function Header() {
     <>
         <ul>
           <li><a href="/"><i className="fas fa-home"></i></a></li>
-          <li><a href="/profile"><i className="fas fa-user-circle"></i></a></li>
           <li><a href="/notifications"><i className='far fa-comment-dots'></i></a></li>
           <li><a href="/cards"><i className="fas fa-heart"></i></a></li>
           <li><a href="/locations"><i className="fas fa-map-marker-alt"></i></a></li>
